@@ -319,6 +319,7 @@ list-style: none;
 .footer-link:hover,
 .footer-link:focus {
     background-color: #31D0AA;
+    fill: #FFFFFF;
 }
 
 .team-soc-media {
