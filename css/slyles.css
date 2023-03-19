@@ -78,13 +78,7 @@ img {
 text-align: center;
 background: #ffffff;
 border-bottom: 1px solid #e7e9fc;
-}
-
-.page-header-portfolio {
-    text-align: center;
-    background: #ffffff;
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .adress {
@@ -302,9 +296,12 @@ list-style: none;
 }
 
 .social-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
     width: 264px;
-    margin-top: 16px;
 }
 
 .footer-link {
@@ -315,11 +312,8 @@ list-style: none;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
-    
-}
-
-.footer-icon {
     fill: #FFFFFF;
+    
 }
 
 .footer-link:hover,
@@ -608,8 +602,9 @@ text-align: center;
     background: #ffffff;
     width: calc((100% - 48px) / 3);
 }
-.project-card:hover,
-.project-card:focus {
+
+.project-card-link :hover,
+.project-card-link :focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
